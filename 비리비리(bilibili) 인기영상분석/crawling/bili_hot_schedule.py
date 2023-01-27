@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 import schedule
 import time
 
-aws_postgresql_url = 'postgresql://alpha:aA!adoba2018@adobadb-kr-1.c1wymupg5wtq.ap-northeast-2.rds.amazonaws.com:5432/adoba_kr'
+aws_postgresql_url = ''
 engine_postgresql = create_engine(aws_postgresql_url)
 
 def job():
